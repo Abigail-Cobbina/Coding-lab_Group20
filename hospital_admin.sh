@@ -66,7 +66,7 @@ secure_data() {
     echo "-------------------------------------------"
     echo "[DONE] active_logs secured. Only the owner can read and write."
 }
-
+initialize_system
 # -----------------------------------------------------------------------------
 # MEMBER 3 - The Orchestrator  <-- Member 3 fills in this section
 # Uncomment below once Member 3 takes over:
