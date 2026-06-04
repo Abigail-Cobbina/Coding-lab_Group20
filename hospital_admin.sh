@@ -66,3 +66,16 @@ secure_data() {
     echo "-------------------------------------------"
     echo "[DONE] active_logs secured. Only the owner can read and write."
 }
+
+# -----------------------------------------------------------------------------
+# MEMBER 3 - The Orchestrator  <-- Member 3 fills in this section
+# Uncomment below once Member 3 takes over:
+# -----------------------------------------------------------------------------
+
+# initialize_system
+# secure_data
+# echo ""
+# echo "==========================================="
+# echo " System Environment Secured"
+# echo " Date: $(date)"
+# echo "==========================================="
