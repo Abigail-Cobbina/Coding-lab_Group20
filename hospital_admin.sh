@@ -42,3 +42,27 @@ initialize_system() {
     echo "Directory initialization complete."
     echo "-------------------------------------------"
 }
+
+# -----------------------------------------------------------------------------
+# MEMBER 2 - The Security Lead
+# Function: secure_data()
+# -----------------------------------------------------------------------------
+secure_data() {
+    echo "==========================================="
+    echo " KNH Security Configuration"
+    echo "==========================================="
+
+    if [ ! -d "active_logs" ]; then
+        echo "[ERROR] active_logs directory not found. Run initialize_system first."
+        exit 1
+    fi
+
+    echo "Applying permissions: Owner read/write only (chmod 600) on active_logs..."
+    chmod 600 active_logs
+
+    echo "Permissions set. Current state of active_logs:"
+    echo "-------------------------------------------"
+    ls -ld active_logs
+    echo "-------------------------------------------"
+    echo "[DONE] active_logs secured. Only the owner can read and write."
+}
