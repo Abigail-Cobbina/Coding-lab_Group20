@@ -4,42 +4,25 @@
 ## Project Overview
 This project is about securing and managing data flow  for Kenyatta National Hospital (KNH) .it manages data flow 12 critical sensors (Heart Rate, Temperature, and Water Usage).The goal of the team is to build a secure permission-governed environment and an analytical dashboard using Shell Scripting.
 
-## Team Members and Roles
-|
-Member
-|
-Role
-|
-Description
-|
-|
---------
-|
-------
-|
--------------
-|
-| Member 1 | The Architect | Responsible for creating the system 
-directories. His function checks if the folders exist and 
-creates them if they do not. |
+## Team Members and Role
 
-| Member 2 | The Security Lead | Sets permissions on the active_logs 
-folder so that only the owner can read and write to it. 
-This protects sensitive patient data. |
+ Member 1 -  The Architect:
+ Responsible for creating the system directories. His function checks if the folders exist and creates them if they do not.
 
-| Member 3 | The Orchestrator | Writes the execution logic and 
-runs the admin functions in the correct order. |
+ Member 2 -  The Security Lead :
+ Sets permissions on the active_logs folder so that only the owner can read and write to it. This protects sensitive patient data.
 
-| Member 4 | The Archivist | Rotates and archives logs by moving 
-them to archived_logs with a timestamp. |
+ Member 3 -  The Orchestrator :
+ Writes the execution logic and runs the admin functions in the correct order.
 
-| Member 5 | Clinical Analyst | Finds critical vitals by scanning 
-Heart Rate and Temperature logs for any row marked CRITICAL 
-and saves those records into a report file. |
+ Member 4 -  The Archivist :
+ Rotates and archives logs by moving them to archived_logs with a timestamp.
 
-| Member 6 | Facility Auditor | Audits water usage by calculating 
-the average consumption for the ICU Water Reserve and prints 
-a clean summary to the screen. |
+ Member 5 -  Clinical Analyst :
+ Finds critical vitals by scanning Heart Rate and Temperature logs for any row marked CRITICAL and saves those records into a report file.
+
+ Member 6 -  Facility Auditor :
+ Audits water usage by calculating the average consumption for the ICU Water Reserve and prints a clean summary to the screen.
 
 ------------
 
