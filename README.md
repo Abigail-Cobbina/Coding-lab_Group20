@@ -5,8 +5,20 @@
 This project is about securing and managing data flow  for Kenyatta National Hospital (KNH) .it manages data flow 12 critical sensors (Heart Rate, Temperature, and Water Usage).The goal of the team is to build a secure permission-governed environment and an analytical dashboard using Shell Scripting.
 
 ## Team Members and Roles
-| Member | Role | Description |
-|--------|------|-------------|
+|
+Member
+|
+Role
+|
+Description
+|
+|
+--------
+|
+------
+|
+-------------
+|
 | Member 1 | The Architect | Responsible for creating the system 
 directories. His function checks if the folders exist and 
 creates them if they do not. |
