@@ -5,47 +5,29 @@
 This project is about securing and managing data flow  for Kenyatta National Hospital (KNH) .it manages data flow 12 critical sensors (Heart Rate, Temperature, and Water Usage).The goal of the team is to build a secure permission-governed environment and an analytical dashboard using Shell Scripting.
 
 ## Team Members and Roles
+| Member | Role | Description |
+|--------|------|-------------|
+| Member 1 | The Architect | Responsible for creating the system 
+directories. His function checks if the folders exist and 
+creates them if they do not. |
 
-Member 1
-|
-The Architect
-|
-His responsible for Creating the  system directories,his function is to check if the folders exist and creates them if they do not.
-|
-|
-Member 2
-|
-The security Lead
-|
-Set Permissions on the files, He sets permission to active_logs folder that only the owner can read and write to it and this protects sensitive patient data.
-|
-|
-Member 3
-|
-Orchestrator
-|
-Write the execution logic and run the admin functions. 
-|
-|
-Member 4
-|
-The Archivist
-|
-Rotates and archives logs.
-|
-|
-Member 5
-|
-Clinical analyst
-|
-Finds critial vitals,by scanning the Heart Rate and Temperature logs for any row marked CRITIAL and saves those records into a report file.
-|
-|
-Member 6
-|
-Facilitator Auditor
-|
-Audits water usage,  by calculating the avarage consumption for the ICU water Reserve , then prints a clean summary to the screen.
+| Member 2 | The Security Lead | Sets permissions on the active_logs 
+folder so that only the owner can read and write to it. 
+This protects sensitive patient data. |
+
+| Member 3 | The Orchestrator | Writes the execution logic and 
+runs the admin functions in the correct order. |
+
+| Member 4 | The Archivist | Rotates and archives logs by moving 
+them to archived_logs with a timestamp. |
+
+| Member 5 | Clinical Analyst | Finds critical vitals by scanning 
+Heart Rate and Temperature logs for any row marked CRITICAL 
+and saves those records into a report file. |
+
+| Member 6 | Facility Auditor | Audits water usage by calculating 
+the average consumption for the ICU Water Reserve and prints 
+a clean summary to the screen. |
 
 ------------
 
